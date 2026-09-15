@@ -41,4 +41,5 @@ A média mínima para aprovação é 6.0.
 ## Autor
 
 Projeto criado para a escola com foco em cálculos de notas e média final.
-FEITO POR: Enzo Araújo - 2025
+
+- Enzo Araújo - 2025
