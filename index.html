@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Notas</title>
+    <link rel="stylesheet" href="Assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Notas</h1>
+        <h3>Prótasio Alves</h3>
+
+        <div class="notas-container">
+            <div class="nota-input">
+                <h4>Nota 1º</h4>
+                <input type="number" id="nota1" min="0" max="10" step="0.1" placeholder="0.0">
+                <div class="peso">Peso: 3</div>
+            </div>
+
+            <div class="nota-input">
+                <h4>Nota 2º</h4>
+                <input type="number" id="nota2" min="0" max="10" step="0.1" placeholder="0.0">
+                <div class="peso">Peso: 3</div>
+            </div>
+
+            <div class="nota-input">
+                <h4>Nota 3º</h4>
+                <input type="number" id="nota3" min="0" max="10" step="0.1" placeholder="0.0">
+                <div class="peso">Peso: 4</div>
+            </div>
+        </div>
+
+        <button onclick="calcularMedia()">Calcular Média</button>
+
+        <div class="resultado" id="resultado">
+            <h3>Média do Semestre</h3>
+            <div class="media" id="mediaFinal">0.0</div>
+            <div class="status" id="status"></div>
+        </div>
+
+        <div class="info">
+            <strong>Como funciona:</strong><br>
+            • 1ª nota × 3<br>
+            • 2ª nota × 3<br>
+            • 3ª nota × 4<br>
+            • Soma tudo e divide por 10<br>
+            • Média mínima para aprovação: 6.0
+        </div>
+
+       <footer class="footer">
+        <b> &copy;Enzo Araújo - 2026 </b>
+    </footer>
+
+    </div>
+
+    <script src="Assets/js/script.js"></script>
+
+ 
+</body>
+</html>
